@@ -2,4 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Golos Text", sans-serif;
 }
+
+/* Cornflower Blue: rgb(102, 170, 237)
+Fire Bush: rgb(231, 160, 78
+Gulf Stream: rgb(123, 188, 170)
+Medium Purple: rgb(150, 118, 223)
+Solitude: rgb(247, 248, 251)
+Hopbush: rgb(203, 106, 158) */
+
+/* header */
+#textlogo {
+    display: inline;
+    font-size: 40px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 40px;
+    width: 100%;
+    margin: 2%;
+}
+
+#logo>img  {
+    height: 48px;
+    vertical-align: middle;
+}
+
+/* main */
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(247, 248, 251);
+    padding: 2%;
+}
+
+/* sezione superiore */
+.contenitore {
+    width: 1000px;
+    height: 800px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 1px 0; 
+    /* messo perche mi eliminava completamente il padding */
+}
+
+.sezprincipale.top {
+    height: 44px;
+    width: 100%;
+    margin: 20px 80px;
+}
+
+.puls {
+    font-size: 14px;
+    font-weight: 600;
+    height: 44px;
+    width: 120px;
+    border-radius: 12px;
+}
+
+.one {
+    margin-right: 10px;
+    border: 0;
+    background-color: rgb(102, 170, 237);
+    color: rgb(255, 255, 255);
+}
+
+.two {
+    border-color: rgb(174, 174, 174);;
+    background-color: white;
+    color: rgb(174, 174, 174);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgb(243, 243, 243);
+}
+
+/* sezione principale */
+
