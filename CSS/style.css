@@ -158,3 +158,11 @@ hr {
 .etichetta.vuoto {
     display: none;
 }
+
+/* footer */
+footer h6 {
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(87, 87, 87);
+}
