@@ -5,18 +5,11 @@
     font-family: "Golos Text", sans-serif;
 }
 
-/* Cornflower Blue: rgb(102, 170, 237)
-Fire Bush: rgb(231, 160, 78
-Gulf Stream: rgb(123, 188, 170)
-Medium Purple: rgb(150, 118, 223)
-Solitude: rgb(247, 248, 251)
-Hopbush: rgb(203, 106, 158) */
-
 /* header */
 #textlogo {
     display: inline;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     vertical-align: middle;
 }
 
@@ -89,12 +82,12 @@ hr {
 
 .title.task {
     font-size: 24px;
-    margin: 12px 0 8px 0;
+    margin: 32px 0 12px 0;
 }
 
 .check.task {
     font-size: 16px;
-    margin-top: 8px;
+    margin: 8px 0 20px;
 }
 
 /* oggetti prima del testo */
@@ -105,20 +98,63 @@ hr {
 }
 
 .check::before {
-    content: '\2713';
-    border: 1px solid rgb(94, 255, 145);
+    border: 1px solid;
     border-radius: 50%;
     padding: 0 4px;
     margin-right: 12px;
+}
+
+.yes.check::before{
+    content: '\2713';
+    border-color: rgb(94, 255, 145);
     color: rgb(94, 255, 145);
 }
 
+.not.check::before {
+    content: '\2717';
+    border-color: rgb(255, 94, 94);
+    color: rgb(255, 94, 94);
+}
+
 /* oggetti dopo il testo */
-.etichettablu {
+.etichetta {
     font-size: 10px;
     color: rgb(235, 235, 235);
-    background-color: rgb(56, 161, 209);
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 8px 12px;
     margin-left: 8px;
+}
+
+/* etichetta Editorial */
+.etichetta.blu {
+    background-color: rgb(56, 161, 209);
+}
+
+/* etichetta Q1 Goals */
+.etichetta.viola {
+    background-color: rgb(150, 118, 223);
+}
+
+/* etichetta Recruiting */
+.etichetta.verde {
+    background-color: rgb(123, 188, 170);
+}
+
+/* etichetta Website */
+.etichetta.rosa {
+    background-color: rgb(203, 106, 158) ;
+}
+
+/* etichetta Sales */
+.etichetta.giallo {
+    background-color: rgb(185, 203, 106);
+}
+
+/* etichetta Mobile */
+.etichetta.arancione {
+    background-color: rgb(231, 160, 78);
+}
+
+.etichetta.vuoto {
+    display: none;
 }
