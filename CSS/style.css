@@ -40,6 +40,11 @@ main {
     padding: 2%;
 }
 
+/* regole generali delle sezioni */
+.sezprincipale{
+    margin: 20px 80px;
+}
+
 /* sezione superiore */
 .contenitore {
     width: 1000px;
@@ -49,12 +54,6 @@ main {
     margin: 0 auto;
     padding: 1px 0; 
     /* messo perche mi eliminava completamente il padding */
-}
-
-.sezprincipale.top {
-    height: 44px;
-    width: 100%;
-    margin: 20px 80px;
 }
 
 .puls {
@@ -84,4 +83,6 @@ hr {
 }
 
 /* sezione principale */
+
+
 
